@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elcontemplador.github.io/relatos-fernando-nieto/sitemap.xml
