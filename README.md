@@ -4,7 +4,7 @@ Colección personal de Fernando Nieto Nieto. Taller de Escritura Creativa de la 
 
 Web: https://elcontemplador.github.io/relatos-fernando-nieto/
 
-24 textos y un prólogo, ilustraciones originales, lectura grande por defecto, tres tamaños de letra, tres contrastes, lectura por voz del dispositivo, búsqueda, categorías, elección al azar, recuerdo local del último texto y ampliación de imágenes. Sin cuentas, anuncios ni analítica.
+24 textos y un prólogo, ilustraciones originales, lectura grande por defecto, tres tamaños de letra, tres contrastes, narración con dos voces de IA en español de España y voz del dispositivo como alternativa, búsqueda, categorías, elección al azar, recuerdo local del último texto y ampliación de imágenes. Sin cuentas, anuncios ni analítica.
 
 ## Edición y publicación
 
@@ -30,7 +30,7 @@ Fuente: 49 páginas, 28 imágenes (incluida contraportada que repite la cubierta
 - Vistas de 320, 390, 768 y 1440 píxeles; ampliación al 200 % sin scroll horizontal.
 - axe-core: cero incidencias A/AA detectadas en cuatro combinaciones de página/tema, incluyendo opciones abiertas. No equivale a certificación exhaustiva ni prueba con usuarios.
 - Revisión visual de portada y lectura, móvil y escritorio.
-- La voz usa SpeechSynthesis del navegador. Su timbre y disponibilidad dependen del dispositivo; no se ha validado mediante escucha humana en teléfonos físicos.
+- La alternativa Voz del dispositivo usa SpeechSynthesis. Su timbre y disponibilidad dependen del dispositivo; no se ha validado mediante escucha humana en teléfonos físicos.
 
 Proyecto personal independiente, publicado por autorización expresa. Texto e imágenes mantienen los derechos que correspondan a sus autores; no se otorga licencia abierta sobre el contenido.
 
@@ -48,3 +48,14 @@ Proyecto personal independiente, publicado por autorización expresa. Texto e im
 Validación específica: `node scripts/qa-ux.cjs`, 19 comprobaciones, incluyendo ambos motores Chromium/WebKit, ancla en párrafo y en hueco, retorno al catálogo, escalado, orientación horizontal, 320 px, ampliación textual al 200 % y controles de voz con una API simulada. La prueba de voz simulada verifica estados, no la reproducción audible en un dispositivo físico. Se mantienen los 14 grupos generales, la comparación de 25 textos y los controles automáticos de accesibilidad.
 
 Copia recuperable anterior: rama local `respaldo/antes-mejoras-ux-e98be92` y `qa/antes-mejoras-ux-e98be92.zip` (no publicados).
+
+
+## Narración en audio · 3 de octubre de 2026
+
+Dos voces de Microsoft Edge TTS: Álvaro (`es-ES-AlvaroNeural`) y Elvira (`es-ES-ElviraNeural`), a ritmo -5 %. Audios MP3 estáticos servidos por GitHub Pages: no se envían textos a un servicio de síntesis durante la escucha. El selector Voz y velocidad ofrece ambas voces, tres velocidades y la voz del dispositivo como alternativa. La selección se guarda localmente. Cambiar de voz vuelve al comienzo; los controles nativos permiten desplazarse por el audio. Sin reproducción automática ni descarga de audio antes de interactuar con los controles.
+
+Generación: `python scripts/generate_audio.py`; dependencias `edge-tts`, FFmpeg y ffprobe. Se emplea exclusivamente la colección ya publicada. `source/audio-manifest.json` registra voces, duraciones y hashes. La caché por texto/voz/ritmo evita volver a generar archivos idénticos. Tras modificar un relato, regenerar los audios y comprobarlos antes de publicar.
+
+Reproductor: `docs/audio-player.js`. Pruebas específicas: `node scripts/qa-audio.cjs`, con `QA_BASE` apuntando a un servidor con soporte HTTP Range (como GitHub Pages); `qa/audio-server.py` sirve la revisión local en el puerto18750. Las pruebas verifican reproducción MP3 real y avance, pausa/continuación, detención, final, cambio de voz, velocidad, persistencia, red fallida, carga bajo demanda, accesibilidad y reflujo. La validación técnica no constituye escucha humana de toda la narración ni comprobación en teléfonos físicos.
+
+Referencias del generador y voces: https://github.com/rany2/edge-tts y https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support .

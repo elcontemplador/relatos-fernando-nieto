@@ -1,0 +1,711 @@
+{
+  "version": 1,
+  "rate": "-5%",
+  "voices": {
+    "alvaro": "es-ES-AlvaroNeural",
+    "elvira": "es-ES-ElviraNeural"
+  },
+  "stories": {
+    "prologo": {
+      "elvira": {
+        "src": "audio/prologo-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "79e0f6f045e64554a52c584ef68ccdf71b37569fc4d3f3d928ca24ae1347bf74",
+        "textSha256": "36454d4fafefe9c163bc45eaa49d3bc0a975244258a74bb3852bcef75750de1d",
+        "sha256": "4d27eaa3dc5bf462b053c13fa5741fa8573ea5b477e749c857a82fe4efd50925",
+        "duration": 230.976,
+        "bytes": 1385856,
+        "boundaryWords": 688,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:04:24.074240+00:00"
+      },
+      "alvaro": {
+        "src": "audio/prologo-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "7b816bf4155e1f97edfe643beb29106985d44c10153d8bfc2276c8dffa396e02",
+        "textSha256": "36454d4fafefe9c163bc45eaa49d3bc0a975244258a74bb3852bcef75750de1d",
+        "sha256": "b1131d49ce90eca81abb4527fb677fa2ae8394e41eb4bfefab45a2eea318f46a",
+        "duration": 238.128,
+        "bytes": 1428768,
+        "boundaryWords": 688,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:04:36.337173+00:00"
+      }
+    },
+    "contrastes-entre-el-pasado-y-el-presente": {
+      "elvira": {
+        "src": "audio/contrastes-entre-el-pasado-y-el-presente-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "1bc3fc4a5c955085434a104f657cdaa5280897ce85d8e8f831f83b8c4d1bcc72",
+        "textSha256": "96e340bf6b3f4bda30fdcaf9b73ca58c634020d6266fc41f8080b479133d674f",
+        "sha256": "2586a161366baed88307364e22d7657228c0d07fd2cf25ddcb93f9c4b542bd5c",
+        "duration": 87.072,
+        "bytes": 522432,
+        "boundaryWords": 182,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:06.129293+00:00"
+      },
+      "alvaro": {
+        "src": "audio/contrastes-entre-el-pasado-y-el-presente-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "dbaef3ac74a5e1b2b6c334747c257b04da96bb18ab1c0163523d07331a1afbad",
+        "textSha256": "96e340bf6b3f4bda30fdcaf9b73ca58c634020d6266fc41f8080b479133d674f",
+        "sha256": "e5b7ca8ec523d23d9a68b2ceb003edc5e62c732bfa249832fbce16b7ecca95bd",
+        "duration": 85.704,
+        "bytes": 514224,
+        "boundaryWords": 182,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:12.019531+00:00"
+      }
+    },
+    "una-labor-de-construccion-eterea": {
+      "alvaro": {
+        "src": "audio/una-labor-de-construccion-eterea-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "59c93f0585b379f55ff808a1f74a7662dd4c03df81f1a8eb0e6bd07a1d8bee78",
+        "textSha256": "24a83a6789f10017932962556d9ec19c34aab2b9d4983768b84c1ffabff2d1ff",
+        "sha256": "5db85e6f9e073454cd280357ac39c4517e608d8910d9a0c6d0434baa838c3a09",
+        "duration": 18.84,
+        "bytes": 113040,
+        "boundaryWords": 46,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:08.452776+00:00"
+      },
+      "elvira": {
+        "src": "audio/una-labor-de-construccion-eterea-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "b55ee165918208db27357fc899a9db0be8272e1e885c89dddeee146b26b71f1f",
+        "textSha256": "24a83a6789f10017932962556d9ec19c34aab2b9d4983768b84c1ffabff2d1ff",
+        "sha256": "d4869c8d071f9680d57d3dafb753d4d121773d8b26f17bcd7829b2cefb14b3b0",
+        "duration": 18.528,
+        "bytes": 111168,
+        "boundaryWords": 46,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:10.056615+00:00"
+      }
+    },
+    "eramos-tan-felices": {
+      "elvira": {
+        "src": "audio/eramos-tan-felices-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "7e488b4627e5b983379de97d71ef24070dac992a6771fc57574800269b729868",
+        "textSha256": "9c8aba8bc71e20a3e1b54ad7a53ce4be30d88e80d3115dd0b63f0c37913e00da",
+        "sha256": "391ff1266f56e774058290c0949515670107a7b8842001c3da4d3e9479f3043b",
+        "duration": 76.32,
+        "bytes": 457920,
+        "boundaryWords": 205,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:16.710342+00:00"
+      },
+      "alvaro": {
+        "src": "audio/eramos-tan-felices-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "f0d8619a52d5029625d4c43bc7d6c2dc3f4b0df99c1e5c2248f7c5969b0ff524",
+        "textSha256": "9c8aba8bc71e20a3e1b54ad7a53ce4be30d88e80d3115dd0b63f0c37913e00da",
+        "sha256": "a1e4d0404bb985800d9aa6c182c748b9c722401cdffb4c3372ec830fc4942adf",
+        "duration": 77.712,
+        "bytes": 466272,
+        "boundaryWords": 205,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:26.822127+00:00"
+      }
+    },
+    "copa-gigante": {
+      "alvaro": {
+        "src": "audio/copa-gigante-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "b667048a805887bb7de619d4727ba6bd4b7c0ee12ea361faf3d6dbff35c2b447",
+        "textSha256": "d827cbe6190f824323d1cb5c200cd97590dce995d2e1116240894ede53caa769",
+        "sha256": "01a08b4bd0bf10fa7ac6a42c35e919996c35a1e23437498a0c77000794d81e35",
+        "duration": 52.44,
+        "bytes": 314640,
+        "boundaryWords": 117,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:26.053450+00:00"
+      },
+      "elvira": {
+        "src": "audio/copa-gigante-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "6f782ab7d1953997a38a1b5e07ab096779b5f70101b5832ae99667e77565cc57",
+        "textSha256": "d827cbe6190f824323d1cb5c200cd97590dce995d2e1116240894ede53caa769",
+        "sha256": "023278f993a180efc9c1aa3ed4351776ff8b257800fb7c4dd5b334bfe811d8a9",
+        "duration": 50.856,
+        "bytes": 305136,
+        "boundaryWords": 117,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:30.050270+00:00"
+      }
+    },
+    "la-peonza-inmovil": {
+      "elvira": {
+        "src": "audio/la-peonza-inmovil-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "8d725191913a1f4d90a7a475f5b211d8f3aae6c064ea771a1e92839e58eced37",
+        "textSha256": "f613564f8d6e8ce2251282257a834920287cc29dcbb829f5e719f29fc0199d0b",
+        "sha256": "2b62664ea4e5ea5738d00ce6fc029a5599af3d8ae622a3968ddcb0a27249fd56",
+        "duration": 119.856,
+        "bytes": 719136,
+        "boundaryWords": 330,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:40.004429+00:00"
+      },
+      "alvaro": {
+        "src": "audio/la-peonza-inmovil-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "ba92207fb3a0396bb5fbbd9a78e012957d96199ca58c05d6ec8f8301fbdf7f12",
+        "textSha256": "f613564f8d6e8ce2251282257a834920287cc29dcbb829f5e719f29fc0199d0b",
+        "sha256": "d27c706f130c206a3f70b5c7645f0315fa087423446adc8596f9bf2d0a4543c9",
+        "duration": 122.688,
+        "bytes": 736128,
+        "boundaryWords": 330,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:05:50.451761+00:00"
+      }
+    },
+    "el-protocolo-de-la-incertidumbre": {
+      "elvira": {
+        "src": "audio/el-protocolo-de-la-incertidumbre-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "a24258a4291a5a87efefef7c6d2ae49b108fb188e0bfc715f56bc80abef73124",
+        "textSha256": "29d44d78a3fe3d0c50a1f83fd9d738675bf42c7d989d41441f7e262d54168bb4",
+        "sha256": "1ef2b073e04f81da28904355311180d77cb757b6bfda6b1cac23d74a2ea89570",
+        "duration": 238.8,
+        "bytes": 1432800,
+        "boundaryWords": 532,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:06:03.632272+00:00"
+      },
+      "alvaro": {
+        "src": "audio/el-protocolo-de-la-incertidumbre-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "a76c99e51ea82ea3bda52b6d5648cacccc3db78d381c34e8dadcb75267dd8858",
+        "textSha256": "29d44d78a3fe3d0c50a1f83fd9d738675bf42c7d989d41441f7e262d54168bb4",
+        "sha256": "7adce0720278e926ba589ce058ba144c83175188f013d6407b6a44b77c764f1c",
+        "duration": 240.936,
+        "bytes": 1445616,
+        "boundaryWords": 532,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:06:15.883956+00:00"
+      }
+    },
+    "el-castillo-de-la-mota-guardian-de-leyendas": {
+      "alvaro": {
+        "src": "audio/el-castillo-de-la-mota-guardian-de-leyendas-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "27244a542acfcf21adac2e77117d507064bc46ece1ed1e0bd9657a3bceb9f9dd",
+        "textSha256": "882b68393cbcc518cf741a27c58c44075ef9c5c2784b029e2596715ba32b0e75",
+        "sha256": "46d67cb6150e983a48b9b58233e37f958fcdff7e1c5dfc850b6c6800a336d26a",
+        "duration": 237.432,
+        "bytes": 1424592,
+        "boundaryWords": 627,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:06:29.214171+00:00"
+      },
+      "elvira": {
+        "src": "audio/el-castillo-de-la-mota-guardian-de-leyendas-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "a5f79dcdfbde3317ce7ac53bd8e51c0f9d5a815dde50b7810713369266d16882",
+        "textSha256": "882b68393cbcc518cf741a27c58c44075ef9c5c2784b029e2596715ba32b0e75",
+        "sha256": "b52ca0d775c8c9f9c046fd9b33ef197a5e65e9055b6a732408118e2e4460e768",
+        "duration": 231.912,
+        "bytes": 1391472,
+        "boundaryWords": 627,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:06:31.434767+00:00"
+      }
+    },
+    "la-noche-tenia-colmillos": {
+      "elvira": {
+        "src": "audio/la-noche-tenia-colmillos-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "658425d6ccc24404a17759f8a03ab361e437b938bd3f6daef827d7aacfb24704",
+        "textSha256": "3da66e545402c890c6d8b40a079d05c3c0486983a77d65ba250d6e1a0f2d44fb",
+        "sha256": "a316fbc91658dea13ff326245be6e8d775d3392d1fe13ab888070a9bfc74ced5",
+        "duration": 217.2,
+        "bytes": 1303200,
+        "boundaryWords": 550,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:06:44.726133+00:00"
+      },
+      "alvaro": {
+        "src": "audio/la-noche-tenia-colmillos-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "4b658047ef213a41ef2bc87c48537c14a3d5fde1dba4611bc793e79a3d3293a4",
+        "textSha256": "3da66e545402c890c6d8b40a079d05c3c0486983a77d65ba250d6e1a0f2d44fb",
+        "sha256": "e1bb7c9bc680e68b9568f178b1c58d15943a8927567a95aea9c77a5dc7eca92f",
+        "duration": 220.8,
+        "bytes": 1324800,
+        "boundaryWords": 550,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:03.704839+00:00"
+      }
+    },
+    "carta-a-la-medica-dna-remedios-sanitas": {
+      "alvaro": {
+        "src": "audio/carta-a-la-medica-dna-remedios-sanitas-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "1c162eb94490df0b7402ae4ef308d1b28f1ae6a5dcc96e02f95f5fe7e8f5b986",
+        "textSha256": "e0c885f4b4fc64cc1ee25e1d8889655e6baa97211d3d5d26bb37e5f8be5a8aec",
+        "sha256": "9d2efebcb53ff6a483864f05a73dd920484cf1bb60339758a3062f5adffe37c5",
+        "duration": 76.008,
+        "bytes": 456048,
+        "boundaryWords": 185,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:06:57.606807+00:00"
+      },
+      "elvira": {
+        "src": "audio/carta-a-la-medica-dna-remedios-sanitas-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "24ecb300b0934c70f6bc465d24a2763bd41f077dfc10b1745f33e2d5e331faf7",
+        "textSha256": "e0c885f4b4fc64cc1ee25e1d8889655e6baa97211d3d5d26bb37e5f8be5a8aec",
+        "sha256": "07d92c7874910b1f7ebc909cdf9bdd1f40e753959f682e34d24cd7511ea8f39e",
+        "duration": 75.672,
+        "bytes": 454032,
+        "boundaryWords": 185,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:02.451433+00:00"
+      }
+    },
+    "carta-2-a-la-directora-del-periodico": {
+      "elvira": {
+        "src": "audio/carta-2-a-la-directora-del-periodico-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "d645bafa6b782d344647096edfc08201dc3b7346d06087e2ae9b8decf8588dd0",
+        "textSha256": "db3bd435306b21ea4ffdf2d63469f84a1ed4890ec01d00148f33b67d95e562f3",
+        "sha256": "5158acfe06074b171e9161e7d52feb30105c90dcc8a369295b69a92273031457",
+        "duration": 67.008,
+        "bytes": 402048,
+        "boundaryWords": 168,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:08.312320+00:00"
+      },
+      "alvaro": {
+        "src": "audio/carta-2-a-la-directora-del-periodico-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "b619d5454803ce43957bba3edb161ceed16cf7933acbb45bd65b12da22c9a3c7",
+        "textSha256": "db3bd435306b21ea4ffdf2d63469f84a1ed4890ec01d00148f33b67d95e562f3",
+        "sha256": "46cb7585fed5e16fea23cc5458b887819194c337c17b012be80ebad0d3b9a25d",
+        "duration": 66.792,
+        "bytes": 400752,
+        "boundaryWords": 168,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:16.030430+00:00"
+      }
+    },
+    "el-ultimo-golpe-en-el-yunque": {
+      "elvira": {
+        "src": "audio/el-ultimo-golpe-en-el-yunque-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "655c331cffd783a2cc01e3991f6d4cf178b0c78564624c7ed1875f2500f71824",
+        "textSha256": "843b092cdeafb94abf0afae052ba212ebccf3ef0185b2d33e1e9e1dd6781e1b0",
+        "sha256": "4630c7c2fceabd3e7dc909702b78f37a27b98419afe06acb22b24f1eed28d670",
+        "duration": 331.848,
+        "bytes": 1991088,
+        "boundaryWords": 853,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:34.282276+00:00"
+      },
+      "alvaro": {
+        "src": "audio/el-ultimo-golpe-en-el-yunque-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "2d2025a3c7124019ff6679293bd56c3467df6467c934250bbc65ba41025a6c22",
+        "textSha256": "843b092cdeafb94abf0afae052ba212ebccf3ef0185b2d33e1e9e1dd6781e1b0",
+        "sha256": "53795b26e1020c6cd3411bef4918f6ad9932a8b8d0e8d214d646f791c330a520",
+        "duration": 337.464,
+        "bytes": 2024784,
+        "boundaryWords": 853,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:14.204439+00:00"
+      }
+    },
+    "un-lunes-de-aguas-perfecto": {
+      "alvaro": {
+        "src": "audio/un-lunes-de-aguas-perfecto-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "8a8d80e6d21bad961ff2c7e9f075f04e4809f9256ed66cf79ea1a0b888f81124",
+        "textSha256": "3c7435bf9a6b588a21ce75c561b73798d9ec90417e3165801d0da9a7191ca21f",
+        "sha256": "0d818eb23b4bc0c8cd4046666b9a058ce882c72cf55cf7b145278a00b05166ad",
+        "duration": 85.248,
+        "bytes": 511488,
+        "boundaryWords": 222,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:41.539207+00:00"
+      },
+      "elvira": {
+        "src": "audio/un-lunes-de-aguas-perfecto-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "7c82d0ae08489e87ed7166a21623facbf3baeed17279b54dc8436cb35f6bd2bb",
+        "textSha256": "3c7435bf9a6b588a21ce75c561b73798d9ec90417e3165801d0da9a7191ca21f",
+        "sha256": "ad11b48bb26777d18e1287c3189faaf3ff9e38f4b1c778ef43856a639136f3c1",
+        "duration": 82.344,
+        "bytes": 494064,
+        "boundaryWords": 222,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:07:46.342764+00:00"
+      }
+    },
+    "la-historia-de-mi-pueblo": {
+      "alvaro": {
+        "src": "audio/la-historia-de-mi-pueblo-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "77079b9a70f03e5f90db175caadf0a0d0bde12f67bc322a054781f1709408803",
+        "textSha256": "038a092483a6297d5405d280778eb9ec527b9db39c7cd72f20248362da7c498e",
+        "sha256": "6da284436570d4f7b84f926c38c824bfaaf61f8d13edbcc7f25f5affb41918e9",
+        "duration": 256.728,
+        "bytes": 1540368,
+        "boundaryWords": 675,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:07.447055+00:00"
+      },
+      "elvira": {
+        "src": "audio/la-historia-de-mi-pueblo-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "d1925d30a68bd6ce3819aaf2c50ed54bbec1a8f11d4728d6320779d34d4ce37f",
+        "textSha256": "038a092483a6297d5405d280778eb9ec527b9db39c7cd72f20248362da7c498e",
+        "sha256": "ddc1f0c9733c745cab54443388beb99ee91292752e751959443bdf80d09d7bac",
+        "duration": 251.208,
+        "bytes": 1507248,
+        "boundaryWords": 675,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:20.312756+00:00"
+      }
+    },
+    "sufrimiento-y-emocion": {
+      "alvaro": {
+        "src": "audio/sufrimiento-y-emocion-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "bae5dce9efaac86153d0d18c1a0eefac35c2d966998111dad6a67daa32bd0eb4",
+        "textSha256": "0b96df5b14c09f2b2766cbb7536ce8ede7591ca994e0908938c5fc53f94f2142",
+        "sha256": "57815732740fbca2d8f89fef17d069ea5fcba66b503304ed8ccf483abb9425a5",
+        "duration": 119.832,
+        "bytes": 718992,
+        "boundaryWords": 293,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:29.469059+00:00"
+      },
+      "elvira": {
+        "src": "audio/sufrimiento-y-emocion-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "475de302a895112c03c9f2066dab0e2c87c20a7198547194117c33ec51a17d88",
+        "textSha256": "0b96df5b14c09f2b2766cbb7536ce8ede7591ca994e0908938c5fc53f94f2142",
+        "sha256": "8130d5782198d8e25bd1c1b0ffdf669bff67530260a604bacacacc126b50ba49",
+        "duration": 115.056,
+        "bytes": 690336,
+        "boundaryWords": 293,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:29.688492+00:00"
+      }
+    },
+    "mi-reencuentro-con-la-libertad": {
+      "elvira": {
+        "src": "audio/mi-reencuentro-con-la-libertad-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "30d5456826ef078e9693a767916f7a30a079df75fd949b624e722c8fa857150b",
+        "textSha256": "1a268c6cfb39619195804d30a0b9ec2143d3b7a9379fb28dce53d72c3c4c5537",
+        "sha256": "3bacd13c1eabede66b5b7f806d92f972a9a5f07bb31bfad074295cf5c07eb3f6",
+        "duration": 158.856,
+        "bytes": 953136,
+        "boundaryWords": 440,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:37.054501+00:00"
+      },
+      "alvaro": {
+        "src": "audio/mi-reencuentro-con-la-libertad-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "6caa08dfef34cf00a61a5b3d87fcdb2b5edbf4dddb1779c0e571fb901b46db72",
+        "textSha256": "1a268c6cfb39619195804d30a0b9ec2143d3b7a9379fb28dce53d72c3c4c5537",
+        "sha256": "c8f72f180afe4112837d75bddab5515ff15773069aca1f22c7517167505738b9",
+        "duration": 160.392,
+        "bytes": 962352,
+        "boundaryWords": 440,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:55.209322+00:00"
+      }
+    },
+    "las-mulas-motor-de-castilla": {
+      "alvaro": {
+        "src": "audio/las-mulas-motor-de-castilla-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "7ae298c6dbe90bb49cd0dfd96e9866db9d18276224df94aaa6c4086e99714a6b",
+        "textSha256": "9978b015555c03f08dad80910d46fa355f30cac05f61543fb97521b5ba761926",
+        "sha256": "b1978e382d43461bd29c4fcb215ce1b1c99e7e9b75d0e3ab50cd17d44d937640",
+        "duration": 123.408,
+        "bytes": 740448,
+        "boundaryWords": 342,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:48.367478+00:00"
+      },
+      "elvira": {
+        "src": "audio/las-mulas-motor-de-castilla-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "28e2494e2f40ead8e6f8cf15ba3b3176ef6e826cad005eb6a8a657744bf0b7d6",
+        "textSha256": "9978b015555c03f08dad80910d46fa355f30cac05f61543fb97521b5ba761926",
+        "sha256": "919248da70157c552d82363abf71f2113ac598dccf1dd5f4b39b27ac48b8637c",
+        "duration": 120.12,
+        "bytes": 720720,
+        "boundaryWords": 342,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:55.435297+00:00"
+      }
+    },
+    "haikus": {
+      "elvira": {
+        "src": "audio/haikus-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "4b4020974ae0c5417cd8a50f2ecd560edce1e6bb581c5ec23e10af6c00524217",
+        "textSha256": "b58275a497b86dfe3585548da5bb02dd33836672ff94c5ef1553e60844c3128f",
+        "sha256": "8d3df23a0b96f4b3b966e72b7971e61db1db8b839e4497275fd277ce5f9de5f1",
+        "duration": 21.648,
+        "bytes": 129888,
+        "boundaryWords": 29,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:08:58.098974+00:00"
+      },
+      "alvaro": {
+        "src": "audio/haikus-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "cdf36368ff045ed2795f72f110707088b22500a5d8a001183f2885a2f27ec03a",
+        "textSha256": "b58275a497b86dfe3585548da5bb02dd33836672ff94c5ef1553e60844c3128f",
+        "sha256": "bf8dbaa364d5e1acea3fef3184c155a8b88d2f68c134a5f26ef9a1be90e6cfde",
+        "duration": 21.456,
+        "bytes": 128736,
+        "boundaryWords": 29,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:01.076570+00:00"
+      }
+    },
+    "luz-matinal-lipograma-sin-e": {
+      "alvaro": {
+        "src": "audio/luz-matinal-lipograma-sin-e-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "44fe06293a1546606f7d624391abb2510919b6da8930c8eedd4a10d24d47954c",
+        "textSha256": "343bbaf2a5128753027271c1bb3773885a38f6504be5d1a663c34733ff43284a",
+        "sha256": "d2e9960fd4d62b1e1b76bcb3807bd7956cc39688b6ba12e53084e92caeccab03",
+        "duration": 62.136,
+        "bytes": 372816,
+        "boundaryWords": 141,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:09.449272+00:00"
+      },
+      "elvira": {
+        "src": "audio/luz-matinal-lipograma-sin-e-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "c40bb3e45489ff8a87d88d67a2b4ade266da88d784a77a1a2ff006eec6705a63",
+        "textSha256": "343bbaf2a5128753027271c1bb3773885a38f6504be5d1a663c34733ff43284a",
+        "sha256": "bd81a8ebac5dd2f3be7f12772c96d747c81fa862161f34460af0c2e3b57e3e47",
+        "duration": 61.752,
+        "bytes": 370512,
+        "boundaryWords": 141,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:11.603861+00:00"
+      }
+    },
+    "tautogramas-con-la-letra-p": {
+      "elvira": {
+        "src": "audio/tautogramas-con-la-letra-p-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "c24d6de8800175f40a0dd197e03ecf3e57e19c3dacb57d1787d019db7c9a4eaa",
+        "textSha256": "b3ce4a87aa7869e640204c21a33901d03df3d3faa75a6fcd0a000f62de6b7d9b",
+        "sha256": "457b232d5760bb7608de8ad2e80bb1837af4576c62065bfbfb73cafe7dfc1280",
+        "duration": 47.712,
+        "bytes": 286272,
+        "boundaryWords": 85,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:15.076108+00:00"
+      },
+      "alvaro": {
+        "src": "audio/tautogramas-con-la-letra-p-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "c8f273fbaaa06b3a85583c574bd5f0fe2cf8e85fb6217b5589c57e2c11417571",
+        "textSha256": "b3ce4a87aa7869e640204c21a33901d03df3d3faa75a6fcd0a000f62de6b7d9b",
+        "sha256": "8d9a6fcc1e0e72bc0e84a1e31b417e656c5f649fe01851e034207cc51ebaf98a",
+        "duration": 48.768,
+        "bytes": 292608,
+        "boundaryWords": 85,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:17.717703+00:00"
+      }
+    },
+    "retorno-de-un-emigrante": {
+      "alvaro": {
+        "src": "audio/retorno-de-un-emigrante-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "2f3de371752b80b40a5d7d07fc4566a3a387821d55de0f1924d4159ffbb5de9e",
+        "textSha256": "de00385609e88ccfa91aec49e26968000a85dcb928803516674ef8d15107338f",
+        "sha256": "f60f3b1613a2ff060bfe651e3360da7ba6ee65031e836f6c6912264af96da49d",
+        "duration": 121.512,
+        "bytes": 729072,
+        "boundaryWords": 331,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:23.754077+00:00"
+      },
+      "elvira": {
+        "src": "audio/retorno-de-un-emigrante-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "9592cacd99fbeb2047c9c55d7b6b035fae3caf5b9acd7fd726b974764083799a",
+        "textSha256": "de00385609e88ccfa91aec49e26968000a85dcb928803516674ef8d15107338f",
+        "sha256": "5b8e8eca12f8e3e26f9c80056461cc405544cc6b08f6b5ffbbc217a3a54f85c1",
+        "duration": 118.8,
+        "bytes": 712800,
+        "boundaryWords": 331,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:37.280319+00:00"
+      }
+    },
+    "en-la-noche-oscura": {
+      "elvira": {
+        "src": "audio/en-la-noche-oscura-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "2ef8e084846a6e6ceba411ae5aec44788e91a9beb7343c8d4de010126c693fac",
+        "textSha256": "2097a9f9b3a814ac04e87c72b8abde0051bf6bc6efe35d4965fa0cee79735088",
+        "sha256": "821bfe12871f7582962aa767a405cdddb8d3007afa6d7990e141766d41a80f51",
+        "duration": 113.376,
+        "bytes": 680256,
+        "boundaryWords": 281,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:48.525004+00:00"
+      },
+      "alvaro": {
+        "src": "audio/en-la-noche-oscura-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "0064d8b290e620483cfdbf4df676b3ff9fe460604ba98d205c84e8cd30d02f37",
+        "textSha256": "2097a9f9b3a814ac04e87c72b8abde0051bf6bc6efe35d4965fa0cee79735088",
+        "sha256": "deff203ef99934981a044d98ec84099c173326d29b5ac7a042fc3c397ca7b7fa",
+        "duration": 114.12,
+        "bytes": 684720,
+        "boundaryWords": 281,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:50.389743+00:00"
+      }
+    },
+    "preguntas-y-respuestas": {
+      "alvaro": {
+        "src": "audio/preguntas-y-respuestas-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "6a2c5e3f07f2549bd466156d99960f542ccb202807a5e3090dc73e6abe36b7a8",
+        "textSha256": "dd27592a130bbf12dac8966d80100caeb6fe69efad0d75c3e9e012af33a4fc61",
+        "sha256": "7baff9a92349409726fd40ba9cf4c05e9dc31fe71d63f7a6afc87ddfcf38549d",
+        "duration": 62.16,
+        "bytes": 372960,
+        "boundaryWords": 150,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:53.989700+00:00"
+      },
+      "elvira": {
+        "src": "audio/preguntas-y-respuestas-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "ae4f9e9505d5dd2d417df7e09c7393f9bf027f4d3152b142724e356f6133e01f",
+        "textSha256": "dd27592a130bbf12dac8966d80100caeb6fe69efad0d75c3e9e012af33a4fc61",
+        "sha256": "8a390e28e26f7037d03e85edfa54a3f33875b24330dfb32aae1cb4336e141763",
+        "duration": 60.864,
+        "bytes": 365184,
+        "boundaryWords": 150,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:09:56.051048+00:00"
+      }
+    },
+    "la-biblioteca-que-respiraba": {
+      "elvira": {
+        "src": "audio/la-biblioteca-que-respiraba-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "4f0459c2f3bdb3152f9c148e698e0c30b1d9ca71c09b9ef9f004d34ca52c0b6a",
+        "textSha256": "ae20757e60b9243fc56371c38cbcbf79dc24fc7b136d9f61627c1da36a8a524d",
+        "sha256": "2150e5d301b32bb6b904890bc060993429ba59f235231366bd8805fde2d4d856",
+        "duration": 104.016,
+        "bytes": 624096,
+        "boundaryWords": 249,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:10:05.192145+00:00"
+      },
+      "alvaro": {
+        "src": "audio/la-biblioteca-que-respiraba-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "4f57d9578f67ae45e428522d89767659e2b2a852c775bac6aef7b9bf231ff619",
+        "textSha256": "ae20757e60b9243fc56371c38cbcbf79dc24fc7b136d9f61627c1da36a8a524d",
+        "sha256": "9eec9e1657c6d43f11aeaec4f6534e3db5fad4fbb0ef204fbc8da6800160bd6c",
+        "duration": 106.44,
+        "bytes": 638640,
+        "boundaryWords": 249,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:10:12.105553+00:00"
+      }
+    },
+    "del-gris-a-la-luz": {
+      "elvira": {
+        "src": "audio/del-gris-a-la-luz-elvira.mp3",
+        "voice": "es-ES-ElviraNeural",
+        "rate": "-5%",
+        "cacheKey": "db826e88da49c13b255e5e30461e900aa3b595880600b248794d290c49fe6b3d",
+        "textSha256": "17cb69c79d8988f216367b498a000ffff2754033dd6caf73ae27a14179a5e018",
+        "sha256": "f4f3f7cd32ea511f4db31e5f3903f7f011cc41b290ce9a78e6fe1557671e2676",
+        "duration": 145.056,
+        "bytes": 870336,
+        "boundaryWords": 370,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:10:27.490400+00:00"
+      },
+      "alvaro": {
+        "src": "audio/del-gris-a-la-luz-alvaro.mp3",
+        "voice": "es-ES-AlvaroNeural",
+        "rate": "-5%",
+        "cacheKey": "d28c16d9e0faad558f50f41c90a8e118a359e174e0fd1cb49df33fcb06c08b9b",
+        "textSha256": "17cb69c79d8988f216367b498a000ffff2754033dd6caf73ae27a14179a5e018",
+        "sha256": "91fe782aaead1d9c9289c4760ffdc5ea5f0d15816cff41927c9ae211d76812c1",
+        "duration": 145.968,
+        "bytes": 875808,
+        "boundaryWords": 370,
+        "textCoverage": "exact-normalized-word-boundaries",
+        "generatedAt": "2026-10-03T10:10:27.712014+00:00"
+      }
+    }
+  },
+  "updatedAt": "2026-10-03T10:10:27.712014+00:00"
+}

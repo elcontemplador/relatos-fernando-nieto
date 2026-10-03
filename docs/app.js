@@ -126,40 +126,7 @@ if(reader){
   try{if(navigator.share)await navigator.share(data);else if(navigator.clipboard&&isSecureContext){await navigator.clipboard.writeText(data.url);status.textContent='Enlace copiado. Ya puedes pegarlo en un mensaje.'}else status.textContent='Puedes copiar el enlace desde la barra de direcciones.'}
   catch(e){if(e.name!=='AbortError')status.textContent='Puedes compartir copiando el enlace de esta página.'}
  });
- const listen=$('#listen'),stop=$('#stop-listening'),synth=window.speechSynthesis;
- let speaking=false,paused=false,voiceSession=0,currentUtterance;
- if(synth&&window.SpeechSynthesisUtterance){
-  listen.hidden=false;
-  function chunks(){
-   const output=[];
-   for(const p of paragraphs.map(x=>x.textContent.trim()).filter(Boolean)){
-    const sentences=p.match(/[^.!?…]+[.!?…]*\s*/g)||[p];let chunk='';
-    for(const sentence of sentences){
-     if(chunk.length+sentence.length>200&&chunk){output.push(chunk);chunk=''}
-     if(sentence.length>220){if(chunk){output.push(chunk);chunk=''}let short='';for(const word of sentence.split(/\s+/)){if(short.length+word.length>190){output.push(short);short=''}short+=word+' '}if(short)output.push(short)}else chunk+=sentence;
-    }
-    if(chunk)output.push(chunk);
-   }
-   return output;
-  }
-  function resetVoice(){speaking=false;paused=false;listen.textContent='Escuchar';stop.hidden=true;currentUtterance=null;document.body.dataset.speaking='false'}
-  function speakPart(parts,index,token){
-   if(token!==voiceSession)return;
-   if(index>=parts.length){resetVoice();status.textContent='La lectura ha terminado.';return}
-   const utterance=new SpeechSynthesisUtterance(parts[index]);currentUtterance=utterance;utterance.lang='es-ES';utterance.rate=.88;
-   const voice=synth.getVoices().find(v=>v.lang==='es-ES')||synth.getVoices().find(v=>v.lang.startsWith('es'));if(voice)utterance.voice=voice;
-   utterance.onend=()=>{if(token===voiceSession)speakPart(parts,index+1,token)};
-   utterance.onerror=e=>{if(token!==voiceSession||['interrupted','canceled'].includes(e.error))return;resetVoice();status.textContent='La voz no está disponible en este navegador. Puedes continuar leyendo.'};
-   synth.speak(utterance);
-  }
-  listen.addEventListener('click',()=>{
-   if(!speaking){synth.cancel();voiceSession++;speaking=true;paused=false;stop.hidden=false;document.body.dataset.speaking='true';listen.textContent='Pausar';status.textContent='Lectura con la voz de tu dispositivo. Puedes pausarla o detenerla en la barra inferior.';speakPart(chunks(),0,voiceSession)}
-   else if(paused){synth.resume();paused=false;listen.textContent='Pausar'}
-   else{synth.pause();paused=true;listen.textContent='Continuar'}
-  });
-  stop.addEventListener('click',()=>{voiceSession++;synth.cancel();resetVoice();status.textContent='Lectura detenida.'});
-  addEventListener('pagehide',()=>{voiceSession++;synth.cancel();resetVoice()});
- }
+ window.setupNarration?.({storage,paragraphs,storyId,status});
 }
 const dialog=$('#image-dialog');
 if(dialog){
